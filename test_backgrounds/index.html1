@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--WHYYYYYYYYYYYYYYYY NOOOOOOOOOOOOOT <style src=src/style/main.css></style>-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>ui_tests</title>
+</head>
+<body>
+
+<div class="box">
+  <h2>Backgrounds & Borders</h2>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--WHYYYYYYYYYYYYYYYY NOOOOOOOOOOOOOT <style src=src/style/main.css></style>-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>ui_tests</title>
+</head>
+<body>
+
+<div class="box">
+  <img
+    alt="Hot air balloons flying in clear sky, and a crowd of people in the foreground"
+    src="https://mdn.github.io/shared-assets/images/examples/balloons.jpg" />
+</div>
+
+
+</body>
+</html>
+

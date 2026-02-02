@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--WHYYYYYYYYYYYYYYYY NOOOOOOOOOOOOOT <style src=src/style/main.css></style>-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>ui_tests</title>
+</head>
+<body>
+
+<form action="" class="my-form" method="post">
+  <div>
+    <label for="fldSearch">Keywords</label>
+    <input id="fldSearch" name="keywords" type="search" />
+    <input name="btnSubmit" type="submit" value="Search" />
+  </div>
+</form>
+
+
+</body>
+</html>
+

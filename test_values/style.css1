@@ -1,0 +1,45 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.hex {
+  background-color: #86defa;
+}
+
+/* Add styles here */
+.rgb {
+  background-color: rgb(134 222 250);
+  /* used lua intrerpreter
+> 0x86
+134
+> 0xde
+222
+> 0xfa
+250
+   */
+}
+
+
+.hsl {
+  background-color: hsl(194 92% 75%);
+}
+
+.transparency {
+  background-color: rgb(134, 222, 250, .6);
+  background-color: rgba(134, 222, 250, .6);
+  background-color: rgb(134 222 250 / .6);
+  background-color: rgba(134 222 250 / .6);
+  /*  soooooooo why is rgba just an alias to rgb???
+   *  and why is rgb recomended instead of rgba???????
+   *  one would expect that only rgba acceps alpha*/
+}

@@ -1,0 +1,83 @@
+there may be slight inaccuracy, the solution should be
+
+.container > *:first-child
+instead of
+.container p:first-child
+
+since we should match only first element in a container, but when we do " " combinator, it will match all choldren recursively. That means if there is a paragraph that is a child of a child of container, it will be the first child (not of container, but of child of container) and will be matched. E.G.
+
+
+<div class="container">
+  <p>
+  we match this (expected)
+  </p>
+  <p>
+    we do not match this
+  </p>
+  <article>
+    <p>
+      we match this (unexpected)
+    </p>
+  </article>
+</div>
+
+
+
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors#task_3
+
+scratch that, Task4 already checks ">", and its only tasks, so its not such big of a deal.
+
+
+
+
+
+
+
+```mdn
+Note: When you use a number in CSS as a value it should not be surrounded in quotes.
+```
+what is this note?????? of course you don't, duh
+http://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units#numbers
+I guess some teribble things happened before so they have to disclose it...
+
+
+
+
+
+
+
+
+
+
+
+```mdn
+Table styling quick tips
+
+Before moving on, we thought we'd provide you with a quick list of the most useful points illustrated above:
+
+    Make your table markup as simple as possible, and keep things flexible.
+    Use table-layout: fixed to create a more predictable table layout that allows you to easily set column widths by setting width on their headings (<th>).
+    Use border-collapse: collapse to make table elements borders collapse into each other, producing a neater and easier to control look.
+    Use <thead>, <tbody>, and <tfoot> to break up your table into logical chunks and provide extra places to apply CSS to, so it is easier to layer styles on top of one another if required.
+    Use zebra striping to make alternative rows easier to read.
+    Use text-align to line up your <th> and <td> text, to make things neater and easier to follow.
+```
+
+
+```mdn
+In the rendered DOM the browser may have normalized the HTML, for example by correcting some badly-written HTML for you. If you incorrectly closed an element, for instance by opening an <h2> but closing with an </h3>, the browser will figure out what you were meaning to do and the HTML in the DOM will correctly close the open <h2> with an </h2>.
+```
+AHAHHAHAHAHAH I CAN'T, WHAT??!?!?!??!
+
+magine if it also fixes js lol
+
+
+
+WHE HELL IT WAS ONLY 'basics'???????
+en-US/docs/Learn_web_development/Core/Text_styling
+
+
+
+
+

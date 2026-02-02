@@ -1,0 +1,25 @@
+body {
+  padding: 1em;
+  font: 1.2em / 1.5 sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 0.5em;
+}
+
+.box {
+  border: 5px solid black;
+  border-radius: 10px;
+  background: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg"), rgb(0,0,0,0.6);
+  /* Add styles here */
+}
+
+h2 {
+  background: rgb(0,0,0,0.6);
+  color:white;
+  /* Add styles here */
+}

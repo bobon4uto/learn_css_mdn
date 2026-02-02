@@ -1,0 +1,63 @@
+h1 {
+  color: red;
+}
+body {
+  background-color: pink;
+}
+
+   /*for top/bottom, then left/right */
+/*   padding: 10px 15px 15px 5px; */
+@media (width >= 30em) {
+  body {
+    background-color: blue;
+  }
+}
+code,li {
+  color: red;
+
+}
+p {
+  background: red url("assets/eve.png") 10px 10px repeat fixed; /*repeat-x repeat-y for only x or only y*/
+}
+/*.cool {
+  color: orange;
+  font-weight: bold;
+}
+li em {
+  color: rebeccapurple;
+}
+h1 + p {
+  font-size: 200%;
+}
+p span {
+  color: black;
+}
+a:link {
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+  font-weight: lighter;
+}
+h1 + p .special {
+  color: yellow;
+  padding: 5px;
+}
+
+.rotated {
+  transform: rotate(0.8turn);
+}
+a:visited {
+  color: green;
+}
+*/
+body {
+    background: rgba(78, 62, 50,1);
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5px;
+}

@@ -1,0 +1,20 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+.my-form {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+
+
+form input {
+  font-size: inherit;
+  padding 10px;
+}
+form input[type=submit] {
+  background: rebeccapurple;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}

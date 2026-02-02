@@ -1,0 +1,10 @@
+
+.container p:first-child {
+  font-size: 150%;
+  color: red;
+}
+
+.container_fix > *:first-child {
+  font-size: 150%;
+  color: red;
+}

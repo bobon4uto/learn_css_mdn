@@ -1,0 +1,202 @@
+/* Type and text */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  font: 1.2em / 1.5 system-ui;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  color: red;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Styling the pane */
+
+section.pane {
+  height: 100%;
+}
+
+h1,
+.controls {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+
+}
+
+.controls {
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  flex: 1;
+}
+
+
+
+
+
+
+/* **** */
+
+/* Use generated content to make a book emoji (📖)
+ * appear at the start of the top-level heading. Add 20px of spacing in between the emoji and the heading text.
+ * */
+h1:before {
+  content: "📖";
+  margin-right: 20px;
+}
+
+
+/*
+Currently, the headings are sized in ems. We'd like you to change the sizing so that it is responsive, changing based on the viewport width but also remaining zoomable. To achieve this, make each heading level's sizing equal to a suitable percentage of the viewport width plus a smaller em value.
+ */
+
+
+h1 {
+  font-size: calc(2vw + 2em);
+}
+
+h2 {
+  font-size: calc(1.5vw + 1.5em);
+}
+
+
+/*
+Make the width of the <section> wrapper element with a class of pane equal to 60%,
+but give it a maximum width of 1000px and minimum width of 480px.
+See if you can find a CSS function that allows you to set this using a single declaration.
+ */
+section.pane {
+  width: clamp(480px, 60%, 1000px);
+}
+/*Center the pane <section> horizontally on the page using auto margins.*/
+section.pane {
+  display: block;
+  margin: auto;
+}
+
+
+/*Set the <h1> and the <div> with a class of controls to both be 100px high. Set the <div> with a class of content to be 100% of the <body> height,
+minus the height of the <h1> and the <div class="controls">. This should give you a UI that always stretches to be the height of the viewport,
+with a flexible content container and a fixed height heading and button bar.*/
+
+h1,
+div.controls {
+  height: 100px;
+}
+div.content {
+  height: calc(100% - 200px);
+}
+
+
+/*
+The buttons look a bit thin and hard to read. Give them a height of 100% of their container, and a font size of 1.2em.
+*/
+
+button {
+  height: 100%;
+  font-size: 1.2em;
+}
+
+
+/*
+Give the pane <section> and the content <div> top/bottom padding of 0 on both sides and left/right padding of 20px on both sides
+ */
+
+section.pane
+div.content {
+  padding: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
+}
+
+
+/*The images currently overflow the content container. Set a maximum width of 90% on them to stop this happening.*/
+
+img {
+  max-width: 90%;
+}
+/*Center the images horizontally using auto margins.*/
+img {
+  display: block;
+  margin: auto;
+}
+
+/*
+Apply a linear gradient to the pane <section> that changes smoothly from #9fb4c7 at the top to #7f7caf at the bottom.
+ * */
+section.pane {
+  background: linear-gradient(#9fb4c7, #7f7caf);
+}
+
+/*Give the images a 1px solid border and the content <div> a 2px solid border. Give the borders a color of #28587b.*/
+
+img {
+  border: 1px solid #28587b;
+}
+
+div.content {
+  border: 2px solid #28587b;
+}
+
+/*Give the content <div> a background color of #eeeeff, and a background image of https://mdn.github.io/shared-assets/images/examples/big-star.png.
+ * The background image should not repeat, should be sized at 40px by 40px, and should be placed 5px from the top of the container
+ * and 15px from the right.*/
+
+div.content {
+  background:no-repeat url(https://mdn.github.io/shared-assets/images/examples/big-star.png) right 15px top 5px / 40px 40px ,
+  #eeeeff;
+}
+
+/*Give the buttons a text color of white and a background color of rgb(40 88 123 / 0.8). On hover or focus, the buttons should change to
+ * have a fully opaque version of the same background color.*/
+button {
+  color: white;
+  background: rgb(40 88 123 / 0.8);
+}
+button:hover {
+  background: rgb(40 88 123);
+}
+/*Set a 10px border radius on the content <div> and the buttons.*/
+
+div.content,
+button {
+  border-radius: 10px;
+}
+
+
+
+/* At this point, you should still notice a problem with the UI — the content contained in the content <div> overflows its container,
+ * and the whole page scrolls to allow you to access it all. We want the content <div> to scroll instead. How can you achieve this? */
+
+div.content {
+  overflow-y: auto;
+}
+

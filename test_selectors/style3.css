@@ -1,0 +1,45 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+td,
+th {
+  padding: 0.2em;
+  text-align: left;
+}
+
+/* Add styles here */
+a:link {
+  color: orange;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+}
+
+
+/*we need > because it also matches all children of children and they might be first childs (just not childs of container.)*/
+.container > *:first-child {
+  font-size: 150%;
+}
+.container > *:first-child:first-line {
+  color: red;
+}
+/* had to lookup reference
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:nth-child */
+tbody > tr:nth-child(2n+0) {
+  background-color: #333333;
+  color: white;
+}
+
+

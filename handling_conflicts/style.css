@@ -1,0 +1,31 @@
+
+#first {
+  color: blue;
+}
+#second {
+  color: green;
+}
+
+.g .x .y .z .h {
+  color: white;
+}
+.s .a .b .c .d .e .f .g .x .y .z .h {
+  color:red;
+}
+/*
+ * this is misleading:
+ *  ```mdn
+ *  IDs: Score one in this column (100 points) for each ID selector contained inside the overall selector.
+ *  Classes: Score one in this column (10 points) for each class selector, attribute selector, or pseudo-class contained inside the overall selector.
+ *  Elements: Score one in this column (1 point) for each element selector or pseudo-element contained inside the overall selector.
+ *  ```
+ *  there are no 100 points, 10 points, 1 point, no matter how specific classes are, id will always win.
+ *  0-0-0 notation is better
+ *
+ *  they do note that, but why would they intriduce 1 10 100 point analogy then?
+ *
+ *
+ *  inline style is the god with 1-0-0-0
+ *
+ *  !important  is like goto
+ * */

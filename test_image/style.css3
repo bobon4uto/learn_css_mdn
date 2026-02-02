@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 "Helvetica Neue",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+  width: 500px;
+}
+
+/* Don't edit the code above here! */
+
+/* Add your code here */
+
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  background: linear-gradient(lightgreen, white, white, white, lightgreen);
+  padding: 1em;
+  width: 100%;
+  margin: 10px 0px;
+  border: none;
+  border-top : 5px solid lightgreen;
+  border-bottom : 5px solid lightgreen;
+}
+
+input:focus, select:focus, button:focus {
+  border-top : 5px solid green;
+  border-bottom : 5px solid green;
+  outline: none;
+  outline: 10px;
+
+}
+
+button {
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+}
+form {
+  border: 10px solid black;
+  border-radius: 0 0 15px 15px;
+  border-top: none;
+  background: lightgreen;
+}
+form, body {
+  margin: auto;
+  padding-top: 0;
+}
+label, h2 {
+  text-align: center;
+}
+label {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+}
+ul li:first-child {
+
+  padding: 10px 0px 0px 0px;
+}
+
+label {
+  color: #333333;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px;
+  background: linear-gradient(white, lightgreen);
+}
+
+ul {
+  padding: 0px 0px 10px 0px;
+}
+li {
+  padding 0px;
+  list-style: none;
+  margin: 0px;
+}
+
+
+
+

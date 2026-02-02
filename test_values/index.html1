@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--WHYYYYYYYYYYYYYYYY NOOOOOOOOOOOOOT <style src=src/style/main.css></style>-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>ui_tests</title>
+</head>
+<body>
+
+
+<ul>
+  <li class="hex">hex color</li>
+  <li class="rgb">RGB color</li>
+  <li class="hsl">HSL color</li>
+  <li class="transparency">Alpha value 0.6</li>
+</ul>
+
+</body>
+</html>
+

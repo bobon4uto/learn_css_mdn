@@ -1,0 +1,25 @@
+
+@import "normalize.css" layer(norm);
+
+input[type="text"],
+input[type="email"] {
+  border: 3px solid #333333;
+  margin-bottom: 1em;
+  padding: 10px;
+  width: 80%;
+  background: no-repeat url(../assets/eve.png) center top,linear-gradient(yellow, white);
+}
+
+input[type="submit"] {
+  border: 3px solid #333333;
+  background-color: #999999;
+  border-radius: 5px;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: white;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #333333;
+}

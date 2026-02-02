@@ -1,0 +1,46 @@
+/*STEP 1*/
+html {
+  background-color: white;
+}
+body {
+  margin: 0 auto 0 auto;
+  /*
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  */
+  background-color: #efefef;
+    font: 1.2em / 1.5 system-ui;
+  padding: 20px 20px 20px 20px;
+  width: 500px;
+}
+ul {
+  border: 5px solid purple;
+  border-radius: 30px; /*its nicer*/
+  background-color: white;
+  padding: 30px 30px 30px 30px;
+}
+
+/*STEP 2*/
+h1 {
+  color:darkslategray;
+  border-bottom: 10px dotted purple;
+  font-size: 2rem;
+}
+h2 {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+div {
+  color: darkslategray;
+  font-weight: bold;
+  font-style: bold;
+}
+a:link {
+  color: green;
+}
+a:hover, a:focus {
+  color: darkgreen;
+  text-decoration: none;
+}

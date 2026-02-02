@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--WHYYYYYYYYYYYYYYYY NOOOOOOOOOOOOOT <style src=src/style/main.css></style>-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>ui_tests</title>
+</head>
+<body>
+
+
+<div class="box box1">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo beet greens
+    corn soko endive gumbo gourd.
+  </p>
+</div>
+
+<div class="box box2">
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo beet greens
+    corn soko endive gumbo gourd.
+  </p>
+</div>
+
+</body>
+</html>
+

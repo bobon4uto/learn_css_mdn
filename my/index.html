@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>ui_tests</title>
+</head>
+<body>
+
+<h1>Bobon4uto (pronounced bobonchito)</h1>
+<h2>Nick origign</h2>
+<p>
+My real name is <i>Vladimir</i>. The nickname was actually supposed to be Vovanchito, coming from <i>"Vovan"</i>, which is a variation of my name.
+But with time it transformed. First iteration, I think, was BoBoH4Nto.
+</p>
+<h2>Education</h2>
+<p>
+I study at NSTU (Novosibirsk State Technical University), don't know how much I should say, but that place is pretty cool.
+Even in USSR when a lot of things were not allowed, they played Jazz, despite it being banned. Obviously I wasn't there, so I cannot prove it.
+But I was on the performance they made not long ago, and they played "pink panther".
+</p><p>
+Regarding my studies in here, I first went to a Faculty where chemistry was mandatory, and kind of got scared to death when acid exploded one day.
+Still, I wasn't sure if I wanted to leave. But then I joined a student brigade that worked as conductors on Novosibirsk-Adler train route.
+And in here I literally had a breakdown because I realised I didn't wanna work here, I didn't wanna study, I felt really bad and cried.
+Thankfully, my supervisor comforted me, we talked about many things and she suggested me changing things if I didn't like how they are.
+That was a revalation, because I never thought that I can do ... <b>ANYTHING</b>. I didn't have to finish work contract,
+I can bail out (well, I still had to finish one race, otherwise I wouldn't get home, obviously). And I didn't have to study on that faculty.
+So, I changed faculties, at first I thought none would accept me, but it was the opposite - seeing my results on this faculty,
+others were really happy to accept me. That's how I got into AVTF.
+</p>
+<h2>Scope of interest</h2>
+<p>
+There are a lot of things I'm interested in. Games, Music, CODING, Books, Anime(bruh), text RP.
+<h3>Books</h3>
+I wouldn't say I read a lot of books. I just buy them sometimes and read from time to time. Last time I was in a book store,
+one book fell from the shelf when I was searching for another one. I felt obligated to buy that book (it was Tisato Abe's "Crow's secret"
+[I'm translating the name from russian so the actual name might be different]) It's a good book, but the premise is questionable.
+<h3>Games</h3>
+I'm not a huge fan of AAA games, in fact, I haven't played in any AAA games from 2020+.
+(wait, does Baldur's gate 3 count? Well, I only bought it, haven't played it yet, so it doesn't matter)
+I'm more interested in Indie games, and making my own, or modding.
+You can tell this is true by the amount of my repositories that are related to gaming (most of them are)
+My favorite game is "Outcore", it has such a heart-warming message "if you don't like it, change da world"
+(It wasn't explicit, but if you played the game you know what I'm talking about)
+<h3>Music</h3>
+I LOVE Music! Even if I don't know the lyrics. Just the vibe of it is enough. I listened to Vocaloids, rappers, rock, some folk.
+Recently I started listening a lot of current Russian rock groups (should I translate them? I will anyway) like
+"pygmies", "Infornal ****Ъ", "beaver's brotherhood"
+<h3>Anime</h3>
+You can't not know about anime today. Some time ago I was locked in and watched a lot of anime (unhealthy amount).
+Today not so much. favorite shows are:
+"Jojo's Bizzare Adventure", "Don't bully me, Nagotoro", "Demon slayer".
+<h3>text RP</h3>
+Role-Playing. I know it sounds bad, but its just when you write stories with someone else. Not DnD, since there is no system per say, but similar.
+I was always writing some stories, I have a ficbook (it's cringe) and I still have my dairy from school (it's even more cringe).
+<h3>Coding</h3>
+Obviously, I write code. I wouldn't be on github otherwise. But how do I write it? Depends. Sometimes I want to throw random stuff untill it works,
+sometimes I want to perfect one line of code. (former:[my entity component system repo] latter: [my BraveWizardChan repo])
+I'm also very stubborn, if I want to do something not like anyone else, I will, then I will realize why no one does it like this
+and have to rewrite everything. I also segfaulted Rust (it was when using nativeWindows ui library, pretty sure problem was inside it,
+although it still was my mistake that caused a segfault, it's just they probably could've prevented it)
+Speaking of languages, my favorites are:
+C, lua (I use Neovim btw), scala (it's so cringe sometimes I love it)
+I love C macros. And I hate them. They are just not flexible enough. best use i found is this:
+<code>
+
+#define FRUITS(T) \
+T(APPLE) \
+T(ORANGE) \
+T(MANGO) \
+
+#define UNROLL_ENUM(X) X,
+  typedef enum {
+    FRUITS(UNROLL_ENUM)
+  } Fruit;
+#define UNROLL_PRINT(X) case X: printf(#X); break;
+  void print_fruit(Fruit f) {
+    switch(f) {
+      FRUITS(UNROLL_PRINT)
+    }
+  }
+
+</code>
+And this is cool and all, but when you want to make something like T(X,FORMAT) it becomes macro hell.
+Also _Generic is dumb, why does it not dissapear after preprocessing?
+</p>
+<p>
+Lua is great, that's why I like Neovim. Also, my first mod was made in Lua for "Don't starve together"
+</p>
+<p>
+If scala didn't take 10 years and 10 gigs of internet traffic to compile simple hello world, it would be actually the best language ever.
+But I guess All that lexical facade increases compiler complexity.
+</p>
+<p>
+end
+</p>
+<ul>
+  <li>Item <span class=cool>one</span> </li>
+  <li class="cool">Item <em>two</em> </li>
+  <li>Item <s>two</s> <b>three</b> </li>
+</ul>
+
+</body>
+</html>
+

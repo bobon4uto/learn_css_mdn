@@ -1,0 +1,23 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  /* Add styles here */
+}
+
+h2 {
+  font-size: 2em;
+  /* Add styles here */
+}
+
+p {
+  font-size: 16px;
+  /* Add styles here */
+}
+
+h1 + p {
+  font-size: 120%;
+  /* Add styles here */
+}
